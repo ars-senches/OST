@@ -1,0 +1,12 @@
+{
+  "name": "ost-seo-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Technical SEO audit workspace for onlineslottop.com.",
+  "scripts": {
+    "audit": "node tools/seo_audit_onlineslottop.mjs",
+    "audit:sample": "MAX_URLS=25 CONCURRENCY=4 node tools/seo_audit_onlineslottop.mjs"
+  }
+}
+
