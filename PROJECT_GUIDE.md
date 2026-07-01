@@ -80,21 +80,14 @@ Needed to continue safely:
 ## GitHub Status
 
 - Local repository exists on branch `main`.
-- A design/spec commit exists for the documentation baseline.
-- No GitHub remote was configured at the time of this guide update.
-- Git author identity should be set explicitly before official baseline commits and pushes.
+- Git author identity is configured locally as `Arsen Po <ars@biggame.solutions>`.
+- GitHub repository: `https://github.com/ars-senches/OST`.
+- Baseline commits include the design/spec, project/GitHub guides, and initial SEO workspace files.
 
-Recommended local identity commands:
-
-```bash
-git config user.name "Your Name"
-git config user.email "you@example.com"
-```
-
-Recommended remote setup after creating the GitHub repository:
+Expected remote setup:
 
 ```bash
-git remote add origin git@github.com:<owner>/<repo>.git
+git remote add origin https://github.com/ars-senches/OST.git
 git push -u origin main
 ```
 
