@@ -87,7 +87,7 @@ Needed to continue safely:
 Expected remote setup:
 
 ```bash
-git remote add origin https://github.com/ars-senches/OST.git
+git remote add origin git@github.com:ars-senches/OST.git
 git push -u origin main
 ```
 
